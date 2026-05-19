@@ -21,3 +21,6 @@ langchain-groq
 beautifulsoup4
 torchvision
 anthropic
+fastapi
+uvicorn
+langserve

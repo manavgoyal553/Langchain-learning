@@ -15,7 +15,6 @@ purpose = st.selectbox("Email Purpose",
                         ["Promotional Offer", "Follow Up", 
                          "Thank You", "New Product Launch"])
 tone = st.selectbox("Tone", ["Formal", "Friendly", "Urgent"])
-
 if st.button("Generate Email"):
     model = ChatGroq(model="llama-3.1-8b-instant")
     prompt = ChatPromptTemplate.from_messages([
